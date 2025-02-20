@@ -1,0 +1,19 @@
+.header {
+  background-color: #f8f9fa;
+  padding: 10px 0;
+}
+
+.container-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-nav .logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-svg {
+  fill: #000;
+}

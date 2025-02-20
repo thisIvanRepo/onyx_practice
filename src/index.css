@@ -1,3 +1,6 @@
+@import './variables.css';
+@import './normalized.css';
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +14,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* #region INIT PROJECT */
+.description-title-project {
+  background-color: var(--background-color);
+  padding: var(--padding);
+  text-align: center;
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  color: var(--text-color);
+  max-width: fit-content;
+  margin:3px auto 3px auto;
+}
+
+.author {
+  font-family:'Times New Roman', Times, serif;
+  font-size: large;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: #c5beb8;
+  padding: 10px;
+  color: var(--text-color);
+  border-top-left-radius: 10px;
+}
+/* #endregion */
