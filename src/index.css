@@ -1,19 +1,84 @@
-@import './variables.css';
-@import './normalized.css';
+@import "./variables.css";
+@import "./normalized.css";
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family:
+    "Catamaran",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    "Roboto",
+    "Oxygen",
+    "Ubuntu",
+    "Cantarell",
+    "Fira Sans",
+    "Droid Sans",
+    "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+/* #region GLOBAL STYLE */
+.highlight-text {
+  color: var(--span-text-color);
+}
+
+.title {
+  font-family: Catamaran, sans-serif;
+  font-weight: 700;
+  font-size: 75px;
+  line-height: 100.2px;
+  color: var(--title-color);
+}
+
+.content {
+  font-family: Catamaran, sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 37.65px;
+  letter-spacing: 3%;
+  color: var(--content-color);
+}
+
+.btn {
+  width: 188px;
+  height: 76px;
+  border-radius: 20px;
+
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30.12px;
+  letter-spacing: 1.2px;
+  background-color: var(--element-color);
+  color: var(--btn-text-color);
+  cursor: pointer;
+  transition-duration: var(--transition-duration);
+  transition-timing-function: var(--transition-timing-function);
+  box-shadow: 0 35px 30px #99baed80;
+}
+
+.btn:hover {
+  background-color: var(--element-color-hover);
+  box-shadow: 0 25px 20px #77a1e080;
+}
+
+.link {
+  transition-duration: var(--transition-duration);
+  transition-timing-function: var(--transition-timing-function);
+}
+
+.link:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 5px 1px var(--shadow-color-hover);
+}
+/* #endregion */
 
 /* #region INIT PROJECT */
 .description-title-project {
@@ -24,11 +89,11 @@ code {
   border-radius: 12px;
   color: var(--text-color);
   max-width: fit-content;
-  margin:3px auto 3px auto;
+  margin: 3px auto 3px auto;
 }
 
 .author {
-  font-family:'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: large;
   position: fixed;
   bottom: 0;

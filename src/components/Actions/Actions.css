@@ -1,0 +1,47 @@
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 72px;
+}
+
+.action-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  background-color: inherit;
+  border-radius: 50%;
+  text-decoration: none;
+}
+
+.action-icon:hover {
+ background-color: #f0f8ff;
+}
+
+.notifications {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon {
+  fill: #000;
+}
+
+.action-button {
+  box-shadow: 0 2px 10px var(--shadow-color);
+}
+
+.action-button:hover {
+  box-shadow: 0 5px 20px var(--shadow-color-hover);
+}
+
+.modal {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.modal h2 {
+  margin-top: 0;
+}
