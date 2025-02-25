@@ -1,6 +1,8 @@
 .section-history {
-  background-image: url("../../images/bg-page/bg1.svg"),
-    url("../../images/bg-page/bg2.svg"), url("../../images/History.jpg");
+  background-image:
+    url("../../images/bg-page/bg1.svg"),
+    url("../../images/bg-page/bg2.svg"),
+    url("../../images/History.jpg");
   background-repeat: no-repeat;
   background-position:
     left top,
