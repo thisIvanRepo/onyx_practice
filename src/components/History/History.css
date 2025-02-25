@@ -1,12 +1,13 @@
 .section-history {
-  background-image:
-  url("../../images/bg-page/bg1.svg"),
-  url("../../images/bg-page/bg2.svg"),
-  url("../../images/History.jpg");
-    background-repeat: no-repeat;
-    background-position: left top, right top, 30px 100px;
-    background-size: auto;
-    height: 968px;
+  background-image: url("../../images/bg-page/bg1.svg"),
+    url("../../images/bg-page/bg2.svg"), url("../../images/History.jpg");
+  background-repeat: no-repeat;
+  background-position:
+    left top,
+    right top,
+    30px 100px;
+  background-size: auto;
+  height: 968px;
 }
 
 .history-container {
