@@ -13,6 +13,6 @@
   --shadow-color: #99baed80;
   --shadow-color-hover: #99baed80;
 
-    --transition-duration: 0.3s;
-    --transition-timing-function: ease-in-out;
+  --transition-duration: 0.3s;
+  --transition-timing-function: ease-in-out;
 }

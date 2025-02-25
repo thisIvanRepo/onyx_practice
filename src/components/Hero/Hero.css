@@ -1,5 +1,5 @@
 .section-hero {
-  background-image: url('../../images/Hero.png');
+  background-image: url("../../images/Hero.png");
   background-repeat: no-repeat;
   background-position: right;
   height: 821px;
@@ -23,5 +23,5 @@
 }
 
 .btn-hero {
-   -webkit-text-stroke: 0px;
+  -webkit-text-stroke: 0px;
 }

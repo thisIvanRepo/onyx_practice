@@ -13,8 +13,8 @@ function Hero() {
               Personality Inside You
             </h1>
             <p className="content content-hero">
-              It is a long established fact that a reader will be
-              the readable content of a page when looking at its layout.
+              It is a long established fact that a reader will be the readable
+              content of a page when looking at its layout.
             </p>
             <button className="my-btn btn-hero">Get Started</button>
           </div>

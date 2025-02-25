@@ -15,8 +15,7 @@ function Nav() {
         break;
 
       case "services":
-        
-      setActive("services");
+        setActive("services");
         break;
       case "contact":
         setActive("contact");
@@ -42,7 +41,8 @@ function Nav() {
           <a
             className="nav-link"
             href="#home"
-            onClick={() => handleClick("home")}>
+            onClick={() => handleClick("home")}
+          >
             Home
           </a>
         </li>
@@ -50,7 +50,8 @@ function Nav() {
           <a
             className="nav-link"
             href="#about"
-            onClick={() => handleClick("about")}>
+            onClick={() => handleClick("about")}
+          >
             History
           </a>
         </li>
@@ -58,7 +59,8 @@ function Nav() {
           <a
             className="nav-link"
             href="#services"
-            onClick={() => handleClick("services")}>
+            onClick={() => handleClick("services")}
+          >
             Services
           </a>
         </li>
@@ -66,7 +68,8 @@ function Nav() {
           <a
             className="nav-link"
             href="#contact"
-            onClick={() => handleClick("contact")}>
+            onClick={() => handleClick("contact")}
+          >
             Gallery
           </a>
         </li>

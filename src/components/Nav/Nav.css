@@ -19,13 +19,13 @@
   font-weight: 600;
   font-size: 40px;
   line-height: 3.44px;
-  color: var( --light-blue-color);
+  color: var(--light-blue-color);
 }
 
 .logo-svg {
- position: relative;
- bottom: 15px;
- left: 20px;
+  position: relative;
+  bottom: 15px;
+  left: 20px;
 }
 
 .nav-list {
@@ -54,7 +54,7 @@
   color: var(--text-color);
 }
 
-.nav-item.active{
+.nav-item.active {
   color: var(--white-color);
   background-color: #a3c1ef;
   transition-duration: var(--transition-duration);
@@ -63,7 +63,7 @@
   border-bottom-right-radius: 5px;
 }
 
-.nav-item.active .nav-link{
+.nav-item.active .nav-link {
   color: #ffffff;
 }
 

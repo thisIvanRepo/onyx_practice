@@ -11,8 +11,5 @@
     "main.fff57ee0.js.map": "/onyx_practice/static/js/main.fff57ee0.js.map",
     "453.1c1bdff0.chunk.js.map": "/onyx_practice/static/js/453.1c1bdff0.chunk.js.map"
   },
-  "entrypoints": [
-    "static/css/main.8fb870bd.css",
-    "static/js/main.fff57ee0.js"
-  ]
+  "entrypoints": ["static/css/main.8fb870bd.css", "static/js/main.fff57ee0.js"]
 }

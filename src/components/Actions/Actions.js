@@ -65,10 +65,7 @@ function Actions() {
           <use href={`${icons}#icon-profile`}></use>
         </svg>
       </a>
-      <a
-        href="#notifications"
-        className="action-icon notifications link"
-      >
+      <a href="#notifications" className="action-icon notifications link">
         <svg className="icon" width="24" height="24">
           <use href={`${icons}#icon-notification`}></use>
         </svg>
