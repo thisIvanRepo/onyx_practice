@@ -36,12 +36,64 @@
   box-shadow: 0 5px 20px var(--shadow-color-hover);
 }
 
+.notifications {
+ position: relative;
+}
+
+.notification-count {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff5050;
+  color: var(--white-color);
+  border: 1px solid var(--white-color);
+  border-radius: 50%;
+  height: 16px;
+  width: 16px;
+  font-size: 10px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* #region MODAL */
 .modal {
   background: white;
   padding: 20px;
   border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.modal h2 {
-  margin-top: 0;
+.form_modal {
+  display: flex;
+  gap: 20px;
 }
+
+.form_modal > input {
+  border: 1px solid var(--element-color);
+  width: 200px;
+  height: 40px;
+  padding-left: 10px;
+  border-radius: 20px;
+  transition-duration: var(--transition-duration);
+}
+
+.form_modal > input:hover {
+  box-shadow: 0 2px 2px var(--shadow-color);
+}
+
+.form_modal > input:focus {
+  outline: none;
+}
+
+.btn-modal-form,
+.btn-modal-form:hover {
+  width: 100px;
+  height: 40px;
+  font-weight: 200;
+  box-shadow: none;
+}
+
+/* #endregion */

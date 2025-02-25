@@ -7,7 +7,6 @@
 
 .hero-title {
   margin-top: 102px;
-  -webkit-text-stroke: 1px white;
   margin-bottom: 29px;
 }
 
@@ -21,4 +20,8 @@
   display: flex;
   flex-direction: column;
   -webkit-text-stroke: 0.2px white;
+}
+
+.btn-hero {
+   -webkit-text-stroke: 0px;
 }

@@ -1,5 +1,10 @@
+@import "basiclightbox/dist/basicLightbox.min.css";
 @import "./variables.css";
 @import "./normalized.css";
+
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   margin: 0;
@@ -47,7 +52,7 @@ code {
   color: var(--content-color);
 }
 
-.btn {
+.my-btn {
   width: 188px;
   height: 76px;
   border-radius: 20px;
@@ -57,14 +62,14 @@ code {
   line-height: 30.12px;
   letter-spacing: 1.2px;
   background-color: var(--element-color);
-  color: var(--btn-text-color);
+  color: var(--white-color);
   cursor: pointer;
   transition-duration: var(--transition-duration);
   transition-timing-function: var(--transition-timing-function);
   box-shadow: 0 35px 30px #99baed80;
 }
 
-.btn:hover {
+.my-btn:hover {
   background-color: var(--element-color-hover);
   box-shadow: 0 25px 20px #77a1e080;
 }

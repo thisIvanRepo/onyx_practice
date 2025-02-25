@@ -4,7 +4,7 @@ import { Container, Section } from "../utils/SectionContainer";
 
 function Hero() {
   return (
-    <Section className="section-hero">
+    <Section className="section-hero" id="home">
       <Container>
         <div className="container">
           <div className="wrapper-content">
@@ -16,7 +16,7 @@ function Hero() {
               It is a long established fact that a reader will be
               the readable content of a page when looking at its layout.
             </p>
-            <button className="btn btn-hero">Get Started</button>
+            <button className="my-btn btn-hero">Get Started</button>
           </div>
         </div>
       </Container>

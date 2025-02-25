@@ -13,8 +13,10 @@ function Nav() {
       case "about":
         setActive("about");
         break;
+
       case "services":
-        setActive("services");
+        
+      setActive("services");
         break;
       case "contact":
         setActive("contact");
@@ -26,31 +28,46 @@ function Nav() {
 
   return (
     <nav className="header-nav">
-      <a href="../index.html" className="logo">
-        <svg className="logo-svg" width="74" height="74">
-          <use href={`${icon}#icon-scissors-1`}></use>
-        </svg>
-        <span className="logo-text">arber</span>
-      </a>
+      <div className="wrapper-logo">
+        <a href="../index.html" className="logo">
+          <svg className="logo-svg" width="74" height="74">
+            <use href={`${icon}#icon-scissors-1`}></use>
+          </svg>
+          arber
+        </a>
+      </div>
+
       <ul className="nav-list">
         <li className={`nav-item ${active === "home" ? "active" : ""}`}>
-          <a href="#home" onClick={() => handleClick("home")}>
+          <a
+            className="nav-link"
+            href="#home"
+            onClick={() => handleClick("home")}>
             Home
           </a>
         </li>
         <li className={`nav-item ${active === "about" ? "active" : ""}`}>
-          <a href="#about" onClick={() => handleClick("about")}>
-            About
+          <a
+            className="nav-link"
+            href="#about"
+            onClick={() => handleClick("about")}>
+            History
           </a>
         </li>
         <li className={`nav-item ${active === "services" ? "active" : ""}`}>
-          <a href="#services" onClick={() => handleClick("services")}>
+          <a
+            className="nav-link"
+            href="#services"
+            onClick={() => handleClick("services")}>
             Services
           </a>
         </li>
         <li className={`nav-item ${active === "contact" ? "active" : ""}`}>
-          <a href="#contact" onClick={() => handleClick("contact")}>
-            Contact
+          <a
+            className="nav-link"
+            href="#contact"
+            onClick={() => handleClick("contact")}>
+            Gallery
           </a>
         </li>
       </ul>
