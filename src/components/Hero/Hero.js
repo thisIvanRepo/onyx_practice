@@ -6,7 +6,6 @@ function Hero() {
   return (
     <Section className="section-hero" id="home">
       <Container>
-        <div className="container">
           <div className="wrapper-content">
             <h1 className="hero-title title">
               <span className="highlight-text">Hairstyle</span> Reflects The
@@ -18,7 +17,6 @@ function Hero() {
             </p>
             <button className="my-btn btn-hero">Get Started</button>
           </div>
-        </div>
       </Container>
     </Section>
   );

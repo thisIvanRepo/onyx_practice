@@ -12407,8 +12407,8 @@
               case "services":
                 n("services");
                 break;
-              case "contact":
-                n("contact");
+              case "gallery":
+                n("gallery");
             }
           };
         return (0, a.jsxs)("nav", {
@@ -12458,11 +12458,11 @@
                   }),
                 }),
                 (0, a.jsx)("li", {
-                  className: "nav-item " + ("contact" === t ? "active" : ""),
+                  className: "nav-item " + ("gallery" === t ? "active" : ""),
                   children: (0, a.jsx)("a", {
-                    href: "#contact",
-                    onClick: () => l("contact"),
-                    children: "Contact",
+                    href: "#gallery",
+                    onClick: () => l("gallery"),
+                    children: "gallery",
                   }),
                 }),
               ],

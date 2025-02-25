@@ -38,8 +38,9 @@ code {
 .title {
   font-family: Catamaran, sans-serif;
   font-weight: 700;
-  font-size: 75px;
+  font-size: 70px;
   line-height: 100.2px;
+  letter-spacing: 3px;
   color: var(--title-color);
 }
 
@@ -109,3 +110,21 @@ code {
   border-top-left-radius: 10px;
 }
 /* #endregion */
+
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(100%);
+  }
+}

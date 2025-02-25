@@ -35,6 +35,7 @@ function Actions() {
         </form>
       </div>
     `);
+    setModalInstance(newEl);
     newEl.show();
   };
 

@@ -1,0 +1,61 @@
+.section-history {
+  background-image:
+  url("../../images/bg-page/bg1.svg"),
+  url("../../images/bg-page/bg2.svg"),
+  url("../../images/History.jpg");
+    background-repeat: no-repeat;
+    background-position: left top, right top, 30px 100px;
+    background-size: auto;
+    height: 968px;
+}
+
+.history-container {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: 100vh;
+}
+
+.history-block {
+  display: flex;
+  flex-direction: column;
+  max-width: 526px;
+}
+
+.history-title {
+  margin-bottom: 80px;
+}
+
+.history-content {
+  margin-bottom: 48px;
+}
+
+.history-content:last-of-type {
+  margin-bottom: 108px;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #00000080;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  z-index: 10;
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+  background: var(--white-color);
+  padding: 30px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 600px;
+  animation: slideUp var(--transition-duration) ease-out;
+}

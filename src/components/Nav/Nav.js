@@ -10,15 +10,15 @@ function Nav() {
       case "home":
         setActive("home");
         break;
-      case "about":
-        setActive("about");
+      case "history":
+        setActive("history");
         break;
 
       case "services":
         setActive("services");
         break;
-      case "contact":
-        setActive("contact");
+      case "gallery":
+        setActive("gallery");
         break;
       default:
         setActive("home");
@@ -46,11 +46,11 @@ function Nav() {
             Home
           </a>
         </li>
-        <li className={`nav-item ${active === "about" ? "active" : ""}`}>
+        <li className={`nav-item ${active === "history" ? "active" : ""}`}>
           <a
             className="nav-link"
-            href="#about"
-            onClick={() => handleClick("about")}
+            href="#history"
+            onClick={() => handleClick("history")}
           >
             History
           </a>
@@ -64,11 +64,11 @@ function Nav() {
             Services
           </a>
         </li>
-        <li className={`nav-item ${active === "contact" ? "active" : ""}`}>
+        <li className={`nav-item ${active === "gallery" ? "active" : ""}`}>
           <a
             className="nav-link"
-            href="#contact"
-            onClick={() => handleClick("contact")}
+            href="#gallery"
+            onClick={() => handleClick("gallery")}
           >
             Gallery
           </a>
