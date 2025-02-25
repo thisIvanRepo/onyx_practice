@@ -4,7 +4,7 @@ import "../../index.css";
 function DescriptionProject() {
   return (
     <div className="description-title-project">
-      <p>      <p>
+      <p>
         This project is an example of a website for a barbershop.
         This is a poorly designed design template, and my skills
         are not high enough to adapt it to small screens, even computers,
@@ -13,7 +13,7 @@ function DescriptionProject() {
         It was interesting to get acquainted with
         the React framework using the example of implementing this template
         and making a prototype of a website for a barbersop.
-      </p>.</p>
+      </p>
     </div>
   );
 }
