@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/onyx_practice/static/css/main.8fb870bd.css",
+    "main.js": "/onyx_practice/static/js/main.fff57ee0.js",
+    "static/js/453.1c1bdff0.chunk.js": "/onyx_practice/static/js/453.1c1bdff0.chunk.js",
+    "static/media/History.jpg": "/onyx_practice/static/media/History.458f833ff060c57e9914.jpg",
+    "static/media/Hero.png": "/onyx_practice/static/media/Hero.5da9f3bf2f4f2b93f86c.png",
+    "static/media/icons.svg": "/onyx_practice/static/media/icons.8363134d19041648b21e18f16b1b2bc0.svg",
+    "index.html": "/onyx_practice/index.html",
+    "main.8fb870bd.css.map": "/onyx_practice/static/css/main.8fb870bd.css.map",
+    "main.fff57ee0.js.map": "/onyx_practice/static/js/main.fff57ee0.js.map",
+    "453.1c1bdff0.chunk.js.map": "/onyx_practice/static/js/453.1c1bdff0.chunk.js.map"
+  },
+  "entrypoints": ["static/css/main.8fb870bd.css", "static/js/main.fff57ee0.js"]
+}
