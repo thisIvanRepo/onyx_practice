@@ -43,7 +43,7 @@ function History({ modalTitle, modalContent }) {
           </div>
         )}
       </Container>
-      <div className="section-history__img"/>
+      <div className="section-history__img" />
     </Section>
   );
 }

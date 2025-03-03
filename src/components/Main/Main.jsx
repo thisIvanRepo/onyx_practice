@@ -9,8 +9,8 @@ function Main() {
     <>
       <Hero />
       <History
-        modalTitle="Barbershop History" 
-        modalContent="Oh, that's all! It's a very long story..." 
+        modalTitle="Barbershop History"
+        modalContent="Oh, that's all! It's a very long story..."
       />
       <Services />
     </>

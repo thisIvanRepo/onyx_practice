@@ -14,10 +14,10 @@ function Services() {
     <Section className="section-services" id="services">
       <Container className="services-container">
         <h2 className="title services-title">
-            Services We<span className="highlight-text">Provide</span>
+          Services We<span className="highlight-text">Provide</span>
         </h2>
         <ul className="services-list">
-          {services.map(({name, icon}, index) => (
+          {services.map(({ name, icon }, index) => (
             <li key={index} className="service-item">
               <div className="container-service-icon">
                 <svg
