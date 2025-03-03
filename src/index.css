@@ -38,8 +38,8 @@ code {
 .title {
   font-family: Catamaran, sans-serif;
   font-weight: 700;
-  font-size: 70px;
-  line-height: 100.2px;
+  font-size: 50px;
+  line-height: 60px;
   letter-spacing: 3px;
   color: var(--title-color);
 }
@@ -47,9 +47,9 @@ code {
 .content {
   font-family: Catamaran, sans-serif;
   font-weight: 400;
-  font-size: 25px;
-  line-height: 37.65px;
-  letter-spacing: 3%;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: 0.03rem;
   color: var(--content-color);
 }
 
