@@ -18,6 +18,7 @@ function Hero() {
           <button className="my-btn btn-hero">Get Started</button>
         </div>
       </Container>
+      <div className="section-hero__img" />
     </Section>
   );
 }
