@@ -1,31 +1,27 @@
 .actions {
   display: flex;
   align-items: center;
-  gap: 72px;
+  gap: 20px;
 }
 
 .action-icon {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 42px;
-  height: 42px;
+  width: 32px;
+  height: 32px;
   background-color: inherit;
   border-radius: 50%;
   text-decoration: none;
 }
 
 .action-icon:hover {
-  background-color: #f0f8ff;
+  background-color: var(--background-color);
 }
 
 .notifications {
   display: flex;
   flex-direction: column;
-}
-
-.icon {
-  fill: #000;
 }
 
 .action-button {
@@ -44,7 +40,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #ff5050;
+  background-color: var(--notification-color);
   color: var(--white-color);
   border: 1px solid var(--white-color);
   border-radius: 50%;
@@ -58,7 +54,7 @@
 
 /* #region MODAL */
 .modal {
-  background: white;
+  background: var(--white-color);
   padding: 20px;
   border-radius: 5px;
   display: flex;

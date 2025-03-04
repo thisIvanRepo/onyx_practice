@@ -1,8 +1,8 @@
 .section-hero {
-  background-image: url("../../images/Hero.png");
+  position: relative;
+  /* background-image: url("../../images/Hero.png");
   background-repeat: no-repeat;
-  background-position: right;
-  height: 821px;
+  background-position: right; */
 }
 
 .hero-title {
@@ -16,13 +16,27 @@
   margin-bottom: 97px;
 }
 
-.wrapper-content {
+.hero-blok {
   max-width: 576px;
   display: flex;
   flex-direction: column;
-  -webkit-text-stroke: 0.2px white;
+  -webkit-text-stroke: 0.2px var(--white-color);
+  padding-bottom: 130px;
 }
 
 .btn-hero {
   -webkit-text-stroke: 0px;
+}
+
+.section-hero__img {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background-image: url("../../images/Hero.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top;
 }

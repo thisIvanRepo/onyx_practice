@@ -6,7 +6,7 @@ import { Container, Section } from "../utils/SectionContainer";
 function Header() {
   return (
     <header className="header">
-      <Section>
+      <Section className="section-header">
         <Container className="container-header">
           <Nav />
           <Actions />
