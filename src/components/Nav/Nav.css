@@ -21,7 +21,7 @@
   text-decoration: none;
   font-weight: 600;
   font-size: 40px;
-  line-height: 3.44px;
+  line-height: 0.086em;
   color: var(--light-blue-color);
 }
 
@@ -53,13 +53,13 @@
   align-items: flex-end;
   font-weight: 500;
   font-size: 20px;
-  line-height: 25px;
+  line-height: 1.25em;
   color: var(--text-color);
 }
 
 .nav-item.active {
   color: var(--white-color);
-  background-color: #a3c1ef;
+  background-color: var( --light-blue-color);
   transition-duration: var(--transition-duration);
   transition-timing-function: var(--transition-timing-function);
   border-bottom-left-radius: 5px;
@@ -67,7 +67,7 @@
 }
 
 .nav-item.active .nav-link {
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 .nav-item:not(.active):hover {

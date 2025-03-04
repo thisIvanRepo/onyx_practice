@@ -12,6 +12,10 @@
   --element-color-hover: #7fa7e2;
   --shadow-color: #99baed80;
   --shadow-color-hover: #99baed80;
+  --notification-color: #ff5050;
+  --social-color: #d3e5ff;
+  --text-color: #153461;
+  --box-color: #99baed;
 
   --transition-duration: 0.3s;
   --transition-timing-function: ease-in-out;

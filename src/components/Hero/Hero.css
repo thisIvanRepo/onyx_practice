@@ -20,7 +20,7 @@
   max-width: 576px;
   display: flex;
   flex-direction: column;
-  -webkit-text-stroke: 0.2px white;
+  -webkit-text-stroke: 0.2px var(--white-color);
   padding-bottom: 130px;
 }
 

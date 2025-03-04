@@ -23,7 +23,7 @@
   display: block;
   width: 100%;
   height: 1px;
-  background-color: #99baed;
+  background-color: var(--element-color);
   position: absolute;
   bottom: 100px;
   left: 0;
@@ -66,10 +66,6 @@
   gap: 20px;
 }
 
-.social-item {
-
-}
-
 .social-link {
   height: 60px;
   width: 60px;
@@ -77,15 +73,11 @@
   border-radius: 50%;
   align-items: center;
   justify-content: center;
-  background-color: #d3e5ff;
+  background-color: var(--social-color);
   transition-duration: var(--transition-duration);
 }
 
 .social-link:hover {
-  background-color: #99baed;
-  box-shadow: 0 0 3px 3px #d3e5ff;
-}
-
-.social-svg {
-
+  background-color: var(--element-color);
+  box-shadow: 0 0 3px 3px var(--social-color);
 }

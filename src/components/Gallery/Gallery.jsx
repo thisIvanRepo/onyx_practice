@@ -21,13 +21,10 @@ function Gallery() {
           <ul className="gallery-list">
             {gallery.map((image, index) => (
               <li key={index} className="gallery-item">
-              <img
-                src={image}
-                alt={`work number ${index}`}
-                width="280"
-                height="280"
-                className="gallery-img"
-              />
+              <div
+                  className="gallery-img"
+                  style={{ backgroundImage: `url(${image})` }}
+                />
               </li>
             ))}
           </ul>
