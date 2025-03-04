@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/onyx_practice/static/css/main.ae402b38.css",
+    "main.js": "/onyx_practice/static/js/main.ee7467a1.js",
+    "static/js/453.1c1bdff0.chunk.js": "/onyx_practice/static/js/453.1c1bdff0.chunk.js",
+    "static/media/History.jpg": "/onyx_practice/static/media/History.458f833ff060c57e9914.jpg",
+    "static/media/Hero.png": "/onyx_practice/static/media/Hero.5da9f3bf2f4f2b93f86c.png",
+    "static/media/obj_1.jpg": "/onyx_practice/static/media/obj_1.199536efaf258e60c665.jpg",
+    "static/media/obj_4.jpg": "/onyx_practice/static/media/obj_4.883f58ae8c5e445cebe0.jpg",
+    "static/media/obj_3.jpg": "/onyx_practice/static/media/obj_3.c8dc6d2cd6fc79f06272.jpg",
+    "static/media/obj_2.jpg": "/onyx_practice/static/media/obj_2.113cf2e503e22e6c8201.jpg",
+    "static/media/obj_5.jpg": "/onyx_practice/static/media/obj_5.d8a5a596a01bb5da149a.jpg",
+    "static/media/obj_6.jpg": "/onyx_practice/static/media/obj_6.7bab73b43943c22f5135.jpg",
+    "static/media/icons.svg": "/onyx_practice/static/media/icons.7c3b70539bb1f57812177875c5b060fe.svg",
+    "index.html": "/onyx_practice/index.html",
+    "static/media/bg6.svg": "/onyx_practice/static/media/bg6.1fd54c05a1b3c2def903.svg",
+    "static/media/bg2.svg": "/onyx_practice/static/media/bg2.e3c052b4c7fe0b50bec2.svg",
+    "static/media/bg5.svg": "/onyx_practice/static/media/bg5.1991bda26cd7c660c008.svg",
+    "static/media/bg7.svg": "/onyx_practice/static/media/bg7.44ab632df8dcb552f80f.svg",
+    "static/media/bg1.svg": "/onyx_practice/static/media/bg1.e0e06e25a8fd4f0317a3.svg",
+    "static/media/bg8.svg": "/onyx_practice/static/media/bg8.bc8fcd90678050133170.svg",
+    "static/media/bg3.svg": "/onyx_practice/static/media/bg3.e940208ac872002f50fa.svg",
+    "static/media/bg4.svg": "/onyx_practice/static/media/bg4.8fdf9ce4db91720838f2.svg",
+    "main.ae402b38.css.map": "/onyx_practice/static/css/main.ae402b38.css.map",
+    "main.ee7467a1.js.map": "/onyx_practice/static/js/main.ee7467a1.js.map",
+    "453.1c1bdff0.chunk.js.map": "/onyx_practice/static/js/453.1c1bdff0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ae402b38.css",
+    "static/js/main.ee7467a1.js"
+  ]
+}
