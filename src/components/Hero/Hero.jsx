@@ -9,7 +9,7 @@ function Hero() {
       targetSection.scrollIntoView();
     }
   };
-  
+
   return (
     <Section className="section-hero" id="home">
       <Container>
@@ -22,10 +22,7 @@ function Hero() {
             It is a long established fact that a reader will be the readable
             content of a page when looking at its layout.
           </p>
-          <button
-            className="my-btn btn-hero"
-            onClick={handleButtonClick}
-          >
+          <button className="my-btn btn-hero" onClick={handleButtonClick}>
             Get Started
           </button>
         </div>

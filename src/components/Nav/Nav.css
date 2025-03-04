@@ -59,7 +59,7 @@
 
 .nav-item.active {
   color: var(--white-color);
-  background-color: var( --light-blue-color);
+  background-color: var(--light-blue-color);
   transition-duration: var(--transition-duration);
   transition-timing-function: var(--transition-timing-function);
   border-bottom-left-radius: 5px;
