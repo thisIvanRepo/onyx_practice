@@ -3,6 +3,13 @@ import "./Hero.css";
 import { Container, Section } from "../utils/SectionContainer";
 
 function Hero() {
+  const handleButtonClick = () => {
+    const targetSection = document.querySelector(".section-services");
+    if (targetSection) {
+      targetSection.scrollIntoView();
+    }
+  };
+  
   return (
     <Section className="section-hero" id="home">
       <Container>
@@ -15,7 +22,12 @@ function Hero() {
             It is a long established fact that a reader will be the readable
             content of a page when looking at its layout.
           </p>
-          <button className="my-btn btn-hero">Get Started</button>
+          <button
+            className="my-btn btn-hero"
+            onClick={handleButtonClick}
+          >
+            Get Started
+          </button>
         </div>
       </Container>
       <div className="section-hero__img" />

@@ -30,6 +30,7 @@
   width: 280px;
   height: 280px;
   border-radius: 4px;
+  transition: var(--transition-duration);
 }
 
 .gallery-img::before {
@@ -46,6 +47,10 @@
 
 .gallery-img:hover::before {
   opacity: 0;
+}
+
+.gallery-img:hover {
+  transform: scale(1.05);
 }
 
 .gallery-list {
