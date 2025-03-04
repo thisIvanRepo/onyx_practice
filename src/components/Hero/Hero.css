@@ -16,11 +16,12 @@
   margin-bottom: 97px;
 }
 
-.wrapper-content {
+.hero-blok {
   max-width: 576px;
   display: flex;
   flex-direction: column;
   -webkit-text-stroke: 0.2px white;
+  padding-bottom: 130px;
 }
 
 .btn-hero {

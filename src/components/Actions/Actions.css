@@ -1,15 +1,15 @@
 .actions {
   display: flex;
   align-items: center;
-  gap: 72px;
+  gap: 20px;
 }
 
 .action-icon {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 42px;
-  height: 42px;
+  width: 32px;
+  height: 32px;
   background-color: inherit;
   border-radius: 50%;
   text-decoration: none;
@@ -22,10 +22,6 @@
 .notifications {
   display: flex;
   flex-direction: column;
-}
-
-.icon {
-  fill: #000;
 }
 
 .action-button {

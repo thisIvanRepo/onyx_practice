@@ -1,0 +1,43 @@
+.section-gallery {
+  position: relative;
+  background-image:
+    url("../../images/bg-page/bg5.svg"),
+    url("../../images/bg-page/bg6.svg");
+
+  background-repeat: no-repeat;
+  background-position:
+    left top,
+    right top;
+  background-size: 15%;
+}
+
+.gallery-block {
+  margin-bottom: 170px;
+}
+
+.gallery-title {
+  display: block;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.gallery-img {
+  display: flex;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.gallery-list {
+  margin: 0 auto;
+  display: grid;
+  width: fit-content;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px;
+  margin-bottom: 60px;
+}
+
+.gallery-btn {
+  display: block;
+  margin: 0 auto;
+}

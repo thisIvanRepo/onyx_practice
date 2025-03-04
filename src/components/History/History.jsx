@@ -29,7 +29,7 @@ function History({ modalTitle, modalContent }) {
             It is a long established fact that a reader will be distracted by
             the readable content of a page when looking at.
           </p>
-          <button className="my-btn" onClick={openModal}>
+          <button className="my-btn btn-history" onClick={openModal}>
             Learn more
           </button>
         </div>

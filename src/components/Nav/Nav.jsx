@@ -27,7 +27,7 @@ function Nav() {
 
   return (
     <nav className="header-nav">
-      <div className="wrapper-logo">
+      <div className="wrapper-logo wrapper-logo-nav">
         <a href="../index.html" className="logo">
           <svg className="logo-svg" width="74" height="74">
             <use href={`${icon}#icon-scissors-1`}></use>

@@ -6,7 +6,7 @@ function Hero() {
   return (
     <Section className="section-hero" id="home">
       <Container>
-        <div className="wrapper-content">
+        <div className="hero-blok">
           <h1 className="hero-title title">
             <span className="highlight-text">Hairstyle</span> Reflects The
             Personality Inside You

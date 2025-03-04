@@ -7,8 +7,11 @@
 .wrapper-logo {
   display: flex;
   align-items: flex-end;
-  padding-bottom: 20px;
   height: 112px;
+}
+
+.wrapper-logo-nav {
+  padding-bottom: 20px;
 }
 
 .logo {
@@ -32,8 +35,8 @@
   margin: 0;
   list-style: none;
   display: flex;
-  padding-left: 110px;
-  gap: 20px;
+  padding-left: 40px;
+  gap: 10px;
   height: 70px;
   padding-bottom: 20px;
 }
@@ -41,7 +44,7 @@
 .nav-item {
   display: flex;
   justify-content: center;
-  width: 93px;
+  width: 73px;
 }
 
 .nav-link {
@@ -49,8 +52,8 @@
   display: flex;
   align-items: flex-end;
   font-weight: 500;
-  font-size: 25px;
-  line-height: 33.4px;
+  font-size: 20px;
+  line-height: 25px;
   color: var(--text-color);
 }
 

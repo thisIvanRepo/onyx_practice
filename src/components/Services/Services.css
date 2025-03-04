@@ -22,6 +22,7 @@
   display: flex;
   justify-content: center;
   gap: 20px;
+  padding-bottom: 270px;
 }
 
 .service-item {

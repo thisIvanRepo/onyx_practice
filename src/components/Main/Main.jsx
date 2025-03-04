@@ -3,6 +3,8 @@ import "./Main.css";
 import Hero from "../Hero/Hero";
 import History from "../History/History";
 import Services from "../Services/Services";
+import Gallery from "../Gallery/Gallery";
+import Footer from "../Footer/Footer";
 
 function Main() {
   return (
@@ -13,6 +15,8 @@ function Main() {
         modalContent="Oh, that's all! It's a very long story..."
       />
       <Services />
+      <Gallery />
+      <Footer />
     </>
   );
 }
